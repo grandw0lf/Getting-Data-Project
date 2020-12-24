@@ -1,0 +1,23 @@
+---
+title: "CodeBook"
+author: "George Farmer"
+date: "12/24/2020"
+output:
+  word_document: default
+---
+```{r, echo=FALSE}
+knitr::opts_chunk$set(error = TRUE)
+```
+#run_analysis.R
+
+This file is designed to be an all in one project resource for this project, downloading the data, processing the data, and then cleaning up the data into a graph at the end.
+```{r, code=xfun::read_utf8('~/Documents/Getting Data Project/run_analysis.R')}
+source('~/Documents/Getting Data Project/run_analysis.R' , local = knitr::knit_global())
+knitr::opts_chunk$set(echo = TRUE)
+```
+Final Data Product:
+```
+```{r FinalData}
+summary(FinalData)
+```
+
